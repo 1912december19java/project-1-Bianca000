@@ -1,0 +1,169 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  
+    <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>com.revature.controller.LoginServlet</servlet-class>
+  </servlet>
+  
+    <servlet>
+        <servlet-name>AllEmployeesServlet</servlet-name>
+        <servlet-class>com.revature.controller.AllEmployeesServlet</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>PendingReimbursementRequestsAllEmployeesServlet</servlet-name>
+        <servlet-class>com.revature.controller.PendingReimbursementRequestsAllEmployeesServlet</servlet-class>
+    </servlet>
+      <servlet>
+        <servlet-name>PendingReimbursementRequestsServlet</servlet-name>
+        <servlet-class>com.revature.controller.PendingReimbursementRequestsServlet</servlet-class>
+    </servlet>
+ 
+    <servlet>
+        <servlet-name>PostExpenseReceiptServlet</servlet-name>
+        <servlet-class>com.revature.controller.PostExpenseReceiptServlet</servlet-class>
+    </servlet>
+ 
+      <servlet>
+        <servlet-name>ResolvedReimbursementRequestsAllEmployeesServlet</servlet-name>
+        <servlet-class>com.revature.controller.ResolvedReimbursementRequestsAllEmployeesServlet</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>ResolvedReimbursementRequestsServlet</servlet-name>
+        <servlet-class>com.revature.controller.ResolvedReimbursementRequestsServlet</servlet-class>
+    </servlet>
+ 
+       <servlet>
+        <servlet-name>SubmitReimbursementRequestServlet</servlet-name>
+        <servlet-class>com.revature.controller.SubmitReimbursementRequestServlet</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>UpdateUserInformationServlet</servlet-name>
+        <servlet-class>com.revature.controller.UpdateUserInformationServlet</servlet-class>
+    </servlet>
+      
+      <servlet>
+        <servlet-name>ViewUserInformationServlet</servlet-name>
+        <servlet-class>com.revature.controller.ViewUserInformationServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.revature.controller.LogoutServlet</servlet-class>
+    </servlet>
+    
+       <servlet>
+        <servlet-name>ApproveServlet</servlet-name>
+        <servlet-class>com.revature.controller.ApproveServlet</servlet-class>
+    </servlet> 
+  
+  
+         <servlet>
+        <servlet-name>RejectServlet</servlet-name>
+        <servlet-class>com.revature.controller.RejectServlet</servlet-class>
+    </servlet>   
+    
+    
+             <servlet>
+        <servlet-name>ViewImageServlet</servlet-name>
+        <servlet-class>com.revature.controller.ViewImageServlet</servlet-class>
+    </servlet> 
+    
+      
+             <servlet>
+        <servlet-name>ViewReimbursementReqForEmployee</servlet-name>
+        <servlet-class>com.revature.controller.ViewReimbursementReqForEmployee</servlet-class>
+    </servlet>   
+    
+    
+    
+                  <servlet-mapping>
+        <servlet-name>ViewReimbursementReqForEmployee</servlet-name>
+        <url-pattern>/ViewReimbursementReqForEmployee</url-pattern>
+    </servlet-mapping>  
+    
+    
+               <servlet-mapping>
+        <servlet-name>ViewImageServlet</servlet-name>
+        <url-pattern>/ViewImageServlet</url-pattern>
+    </servlet-mapping>  
+    
+           <servlet-mapping>
+        <servlet-name>RejectServlet</servlet-name>
+        <url-pattern>/RejectServlet</url-pattern>
+    </servlet-mapping>  
+    
+    
+    
+       <servlet-mapping>
+        <servlet-name>ApproveServlet</servlet-name>
+        <url-pattern>/ApproveServlet</url-pattern>
+    </servlet-mapping>  
+
+     <servlet-mapping>
+        <servlet-name>ViewUserInformationServlet</servlet-name>
+        <url-pattern>/ViewUserInformationServlet</url-pattern>
+    </servlet-mapping>
+ 
+     <servlet-mapping>
+        <servlet-name>UpdateUserInformationServlet</servlet-name>
+        <url-pattern>/UpdateUserInformationServlet</url-pattern>
+    </servlet-mapping>
+ 
+     <servlet-mapping>
+        <servlet-name>SubmitReimbursementRequestServlet</servlet-name>
+        <url-pattern>/SubmitReimbursementRequestServlet</url-pattern>
+    </servlet-mapping>
+ 
+    <servlet-mapping>
+        <servlet-name>ResolvedReimbursementRequestsServlet</servlet-name>
+        <url-pattern>/ResolvedReimbursementRequestsServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ResolvedReimbursementRequestsAllEmployeesServlet</servlet-name>
+        <url-pattern>/ResolvedReimbursementRequestsAllEmployeesServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>PostExpenseReceiptServlet</servlet-name>
+        <url-pattern>/PostExpenseReceiptServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>PendingReimbursementRequestsServlet</servlet-name>
+        <url-pattern>/PendingReimbursementRequestsServlet</url-pattern>
+    </servlet-mapping>
+  
+
+    <servlet-mapping>
+        <servlet-name>PendingReimbursementRequestsAllEmployeesServlet</servlet-name>
+        <url-pattern>/PendingReimbursementRequestsAllEmployeesServlet</url-pattern>
+    </servlet-mapping>
+
+  <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+
+    <servlet-mapping>
+        <servlet-name>AllEmployeesServlet</servlet-name>
+        <url-pattern>/AllEmployee</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    
+  <welcome-file-list>  
+   <welcome-file>login.html</welcome-file>    
+  </welcome-file-list>  
+  
+</web-app>
